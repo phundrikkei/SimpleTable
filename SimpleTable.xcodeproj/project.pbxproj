@@ -24,6 +24,8 @@
 		3ABCC9871CA4C99300681548 /* WalkThroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCC9861CA4C99300681548 /* WalkThroughPageViewController.swift */; };
 		3ABCC9931CA4EDB500681548 /* discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABCC9921CA4EDB500681548 /* discover.storyboard */; };
 		3ABCC9951CA4EDCC00681548 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABCC9941CA4EDCC00681548 /* about.storyboard */; };
+		3ABCC9971CA4F63C00681548 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCC9961CA4F63C00681548 /* AboutTableViewController.swift */; };
+		3ABCC9991CA4FD3300681548 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCC9981CA4FD3300681548 /* WebViewController.swift */; };
 		3ACD56CE1CA39124003B2F24 /* SimpleTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD56CC1CA39124003B2F24 /* SimpleTable.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		3ABCC9861CA4C99300681548 /* WalkThroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughPageViewController.swift; sourceTree = "<group>"; };
 		3ABCC9921CA4EDB500681548 /* discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = discover.storyboard; sourceTree = "<group>"; };
 		3ABCC9941CA4EDCC00681548 /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
+		3ABCC9961CA4F63C00681548 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		3ABCC9981CA4FD3300681548 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		3ACD56CD1CA39124003B2F24 /* SimpleTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleTable.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +91,8 @@
 				3AA7B8F31C9F995000C4AA9B /* ViewController.swift */,
 				3AA7B8F51C9F995000C4AA9B /* Main.storyboard */,
 				3ABCC9941CA4EDCC00681548 /* about.storyboard */,
-				3ABCC9921CA4EDB500681548 /* discover.storyboard */,
 				3AA7B8F81C9F995000C4AA9B /* Assets.xcassets */,
+				3ABCC9921CA4EDB500681548 /* discover.storyboard */,
 				3AA7B8FA1C9F995000C4AA9B /* LaunchScreen.storyboard */,
 				3AA7B8FD1C9F995000C4AA9B /* Info.plist */,
 				3AA7B9031C9FB0CE00C4AA9B /* RestaurantTableViewCell.swift */,
@@ -100,6 +104,8 @@
 				3ACD56CC1CA39124003B2F24 /* SimpleTable.xcdatamodeld */,
 				3ABCC9841CA4C79500681548 /* WalkThroughContentViewController.swift */,
 				3ABCC9861CA4C99300681548 /* WalkThroughPageViewController.swift */,
+				3ABCC9961CA4F63C00681548 /* AboutTableViewController.swift */,
+				3ABCC9981CA4FD3300681548 /* WebViewController.swift */,
 			);
 			path = SimpleTable;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 				3AA7B9041C9FB0CE00C4AA9B /* RestaurantTableViewCell.swift in Sources */,
 				3AA7B8F21C9F995000C4AA9B /* AppDelegate.swift in Sources */,
 				3ACD56CE1CA39124003B2F24 /* SimpleTable.xcdatamodeld in Sources */,
+				3ABCC9991CA4FD3300681548 /* WebViewController.swift in Sources */,
+				3ABCC9971CA4F63C00681548 /* AboutTableViewController.swift in Sources */,
 				3A3D41B71CA2890800227DD7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SimpleTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rikkiesoft.SimpleTable;
@@ -315,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SimpleTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rikkiesoft.SimpleTable;
