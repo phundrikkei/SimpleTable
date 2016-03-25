@@ -78,7 +78,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // connet to function to handle search
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
-        
+         
     }
     
     override func viewWillAppear(animated: Bool) {
